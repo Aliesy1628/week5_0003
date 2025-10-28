@@ -22,7 +22,7 @@ public class testing {
         } else {
             if (status.contentEquals("tidak") && hargaBlender > 1000000) {
                 System.out.println("Mendapat diskon 5%");
-                totalHarga = hargaBlender - (hargaBlender * 0.5);
+                totalHarga = hargaBlender - (hargaBlender * 0.05);
                 System.out.println("Total harga : " + totalHarga);
             }
         }
