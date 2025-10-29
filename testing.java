@@ -26,6 +26,10 @@ public class testing {
                 System.out.println("Total harga : " + totalHarga);
             }
         }
+
+        totalHarga = hargaBlender;
+        System.out.println("Harga Akhir : " + totalHarga);
+
         ns.close();
     }
 }
